@@ -64,7 +64,7 @@ public class TV{
         this.estado = False;
     }
 
-    public getEstado(){
+    public boolean getEstado(){
         return estado;
     }
 
