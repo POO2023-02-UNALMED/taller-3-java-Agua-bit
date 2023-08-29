@@ -37,10 +37,8 @@ public class Control{
         tv.volumeDown();
     }
 
-    public void setVolume(int volume){
-        if(estado == True && 0<= this.volume <= 7){
-            this.volume = volume;
-        }
+    public void setVolumen(int volumen){
+        tv.setVolumen(volumen);
     }
 
 
