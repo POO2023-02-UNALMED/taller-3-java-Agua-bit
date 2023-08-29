@@ -6,7 +6,7 @@ public class TV{
     private boolean estado;
     private int volumen = 1;
     private Control control;
-    private int numTV;
+    private static int numTV;
 
     public TV(Marca marca, boolean estado){
         this.marca = marca;
@@ -18,7 +18,7 @@ public class TV{
         this.marca = marca;
     }
 
-    public String getMarca(){
+    public Marca getMarca(){
         return marca;
     }
 
@@ -67,6 +67,14 @@ public class TV{
     public boolean getEstado(){
         return estado;
     }
+
+    public static  void setNumTV(int numTV) {
+		TV.numTv = numTV;
+	}
+
+    public  static int getNumTV() {
+		return numTv;
+	}
 
     public void canalUp(){
         if(estado == true && 1 <= canal && canal < 120){
