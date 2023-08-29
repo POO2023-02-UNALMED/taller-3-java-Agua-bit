@@ -22,6 +22,10 @@ public class Control{
         tv.canalDown();
     }
 
+    public void setCanal(int canal){
+        tv.setCanal(canal);
+    }
+
     public void volumenUp(){
         tv.volumenUp();
     }
