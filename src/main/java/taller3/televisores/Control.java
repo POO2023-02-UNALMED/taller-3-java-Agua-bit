@@ -22,12 +22,12 @@ public class Control{
         tv.canalDown();
     }
 
-    public void volumeUp(){
-        tv.volumeUp();
+    public void volumenUp(){
+        tv.volumenUp();
     }
 
-    public void volumeDown(){
-        tv.volumeDown();
+    public void volumenDown(){
+        tv.volumenDown();
     }
 
     public void setVolumen(int volumen){
