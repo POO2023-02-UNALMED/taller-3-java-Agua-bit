@@ -39,7 +39,7 @@ public class Control{
 
     public void setVolume(int volume){
         if(estado == True && 0<= this.volume <= 7){
-            this.volume = volume
+            this.volume = volume;
         }
     }
 
