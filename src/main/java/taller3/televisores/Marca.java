@@ -1,16 +1,16 @@
 public class Marca{
     
-    private string nombre;
+    private String nombre;
 
-    public string getNombre(){
+    public String getNombre(){
         return nombre;
     }
 
-    public void setNombre(string nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
-    public Marca (string nombre){
+    public Marca (String nombre){
         this.nombre = nombre;
     }
 }

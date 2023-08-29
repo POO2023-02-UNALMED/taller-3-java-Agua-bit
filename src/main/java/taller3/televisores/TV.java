@@ -18,7 +18,7 @@ public class TV{
         this.marca = marca;
     }
 
-    public string getMarca(){
+    public String getMarca(){
         return marca;
     }
 
